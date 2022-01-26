@@ -1,0 +1,7 @@
+.external{
+    text-align: center;
+    background-color: red;
+    border: 3px solid rgb(250, 165, 8);
+    border-radius: 8px;
+    font-size: x-large;
+}

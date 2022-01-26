@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css&Insert css in to html</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #internal {
+            border: 2px solid black;
+            border-radius: 8px;
+            background-color: aqua;
+            text-align: center;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color: black;color: white; text-align: center ;">CSS BASIC KEY</h1>
+    <hr> <br>
+    <div id="main">
+        <div>
+            <fieldset>
+                <legend>What is css</legend>
+                <p>CSS is the language we use to style a Web page.</p>
+                <ul>
+                    <li>CSS stands for Cascading Style Sheets</li>
+                    <li>CSS describes how HTML elements are to be displayed on screen or viewport.External stylesheets
+                        are stored in CSS files</li>
+                    <li>External stylesheets are stored in CSS files</li>
+                </ul>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                When a browser reads a style sheet, it will format the HTML document according to the information in the
+                style sheet. <br>
+                <legend>HOW TO ADD CSS IN HTML</legend> <br>
+                <strong>Three Ways to Insert CSS</strong>
+                <ol>
+                    <li>Inline Css</li>
+                    <li>Internal Css</li>
+                    <li>External Css</li>
+                </ol>
+                <H2>Inline css</H2>
+                <p style="background-color: silver;color: rgb(0, 0, 0);">An inline style may be used to apply a unique
+                    style for a single element.
+
+                    To use inline styles, add the style attribute to the relevant element. The style attribute can
+                    contain any CSS property.</p>
+                <h3>We can add <i> inline css</i> according to below syntax</h3>
+                <strong style="color: rgb(8, 66, 175);">&ltp sytle="css property: property value;"&gt </strong>
+                <!-- <p style="color: rgb(8, 66, 175);" -->
+                <!-- &ltp style="background-color: silver; colour: black;"&gt>  -->
+                <p>"In this above example we inserted a inline style attribute which gives background color as
+                    <b>silver</b> & <b>text color as black</b> "
+                </p>
+                <hr>
+                <h2>Internal css</h2>
+                <p>An internal style sheet may be used if one single HTML page has a unique style.
+
+                    The internal style is defined inside the <strong>&ltstyle&gt</strong> element, inside the
+                    <strong>head </strong> section.
+                </p>
+                <h3>We can add <i> Internal Css</i> according to below syntax</h3>
+                <strong style="color: rgb(8, 66, 175);">&lthead &gt <br> &lt style &gt <br> element OR selector(id,class
+                    & tag) {<br> css property: property value; <br> } <br> &lt/ style &gt <br> &lt /head &gt <br>
+                </strong>
+                <div id="internal">
+                    <p>This paragraph is designed with the help of internal css </p>
+                </div>
+                <hr>
+                <h2>External css</h2>
+                <p>With an external style sheet, you can change the look of an entire website by changing just one file!
+
+                    Each HTML page must include a reference to the external style sheet file inside the
+                    <link> element, inside the head section.
+                </p>
+                <p>An external style sheet can be written in any text editor, and must be saved with a .css extension.
+
+                    The external .css file should not contain any HTML tags.</p>
+                    <h3>We can add <i> Eternal Css</i> according to below syntax</h3>
+                <strong style="color: rgb(8, 66, 175);">&lthead &gt <br> &lt link="rel="stylesheet" href="mystyle.css"" &gt <br>  &lt /head &gt <br> </strong> <br>
+                    Here href is the refrence or we say the path if external css file. <br>
+                    <div class="external">
+                        <p>
+                            This paragraph is designed with the External Css.
+                            <br>
+                            External css always have a extension with(".css"). <br>
+                            External css file is very usefull for large document.
+                        </p>
+                    </div>
+                </strong>
+
+
+            </fieldset>
+        </div>
+        <div>
+
+</body>
+
+</html>
